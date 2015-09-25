@@ -10,7 +10,7 @@
 // Assumptions:
 // space doesn't count
 // Caseinsentitive
-exports.isPermutationsOfPalindrome = function(str) {
+exports.isPermutationsOfPalindrome = isPermutationsOfPalindrome = function(str) {
   var charHash = {},
       length = str.length;
 

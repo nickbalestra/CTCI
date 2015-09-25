@@ -10,7 +10,7 @@
 // # checkPermutation('nice', 'nic') == false
 //
 // O(sort + split + join)
-exports.checkPermutation = function(str1, str2) {
+exports.checkPermutation = checkPermutation = function(str1, str2) {
   if (str1.length !== str2.length) return false;
   return str1.split('').sort().join('') === str2.split('').sort().join('');
 }
@@ -21,7 +21,7 @@ exports.checkPermutation = function(str1, str2) {
 // # checkPermutation2('nice', 'nic') == false
 //
 // O(n)
-exports.checkPermutation2 = function(str1, str2) {
+exports.checkPermutation2 = checkPermutation2 =function(str1, str2) {
   if (str1.length !== str2.length) return false;
   var hash1 = {};
   var hash2 = {};

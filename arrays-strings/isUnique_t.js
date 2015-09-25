@@ -6,7 +6,7 @@
 // test > 1.1 determine if a string has all unique characters
 // # isUnique('nick') == true
 // # isUnique('balestra') == false
- exports.isUnique = function(str){
+ exports.isUnique = isUnique = function(str){
   var charHash = {};
 
   return str.split('').reduce(function(prev, current){
