@@ -3,7 +3,7 @@
  * What if you cannot use additional data structures?
  */
 
-// test > determine if a string has all unique characters
+// test > 1.1 determine if a string has all unique characters
 // # isUnique('nick') == true
 // # isUnique('balestra') == false
  exports.isUnique = function(str){

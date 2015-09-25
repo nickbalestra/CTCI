@@ -4,8 +4,12 @@
  * is a rearrangement of letters. The palindrome does not need to be limited to just dictionary words.
  */
 
-// test > check if string is a permutation of a palindrome
+// test > 1.4 check if string is a permutation of a palindrome
 // # isPermutationsOfPalindrome('Tact Coa') == true
+//
+// Assumptions:
+// space doesn't count
+// Caseinsentitive
 exports.isPermutationsOfPalindrome = function(str) {
   var charHash = {},
       length = str.length;

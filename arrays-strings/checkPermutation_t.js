@@ -4,7 +4,7 @@
  */
 
 
-// test > determine if a string is a permutation of the other
+// test > 1.2a determine if a string is a permutation of the other
 // # checkPermutation('nick', 'ickn') == true
 // # checkPermutation('nice', 'nici') == false
 // # checkPermutation('nice', 'nic') == false
@@ -15,7 +15,7 @@ exports.checkPermutation = function(str1, str2) {
   return str1.split('').sort().join('') === str2.split('').sort().join('');
 }
 
-// test > determine if a string is a permutation of the other in O(n)
+// test > 1.2b determine if a string is a permutation of the other in O(n)
 // # checkPermutation2('nick', 'ickn') == true
 // # checkPermutation2('nice', 'nici') == false
 // # checkPermutation2('nice', 'nic') == false
